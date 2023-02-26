@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Noto Sans, sans-serif;
+}
+
+header{
+    font-size: 14px;
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+
+.lightblue{
+    background-image: url(../img/jumbo.png);
+    width:auto;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li{
+    display: inline-block;
+}
+
+.login{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    width: 220px;
+    height: 40px;
+    padding: 10px 55px;
+}
+
+.orange{
+    padding: 15px;
+    width: 250px;
+    margin: 10px 0;
+}
+
+.tt{
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 25px;
+    width: 150px;
+}
+
+.bigorange{
+    padding: 15px;
+    width: 700px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.darkblue{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fuchsia{
+    width: 700px;
+    padding: 60px;
+    margin: 60px 0px;
+    text-align: center;
+}
+
+.descrizione{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+h1, h2{
+    font-size: 30px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.butt1{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    width: 220px;
+    height: 40px;
+    padding: 10px 55px;
+}
+
+.butt2{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    width: 240px;
+    height: 40px;
+    padding: 10px 30px;
+}
+
+/*primo riquadro*/
+
+.primoriquadro{
+    background-color: white;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blue1{
+    background-image: url(../img/item1.svg);
+    width: 650px;
+    height: 500px;
+    background-repeat: no-repeat;
+    padding: 150px;
+    margin: 20px 0;
+}
+
+.pink1{
+    font-size: 18px;
+    width: 450px;
+    padding: 120px;
+}
+
+.xx{
+    padding: 10px 0;
+}
+
+/* secondo riquadro */
+
+.secondoriquadro{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pink2{
+    font-size: 18px;
+    width: 450px;
+    padding: 120px;
+
+}
+
+.blue2{
+    background-image: url(../img/item2.svg);
+    width: 650px;
+    height: 500px;
+    background-repeat: no-repeat;
+    padding: 150px;
+    margin: 20px 0;
+}
+
+/* terzo riquadro */
+
+.terzoriquadro{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blue3{
+    background-image: url(../img/item3.svg);
+    width: 650px;
+    height: 500px;
+    background-repeat: no-repeat;
+    padding: 150px;
+    margin: 20px 0;
+}
+
+.pink3{
+    font-size: 18px;
+    width: 450px;
+    padding: 120px;
+}
+
+/* quarto riquadro */
+
+.green{
+    background-color: lightgrey;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.xxx{
+    text-align: center;
+}
+
+.verde{
+    background-image: url(../img/item4-big.svg);
+    background-repeat: no-repeat;
+    width: 850px;
+    padding: 350px;
+    margin: 20px;
+}
+
+.starlight{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    font-size: 20px;
+    margin: -150px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bluebutt{
+    border-radius: 20px;
+    background-color: lightskyblue;
+    color: white;
+    width: 240px;
+    height: 40px;
+    padding: 10px 30px;
+}
+
+.info{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.coral{
+    font-size: 14px;
+    width: 400px;
+    padding: 40px;
+    margin: 20px 0;
+}
+
+h4{
+    font-size: 20px;
+    color: lightskyblue;
+}
+
+.acquamarine{
+    width: 120px;
+    padding: 40px;
+    margin: 20px 0;
+}
+
+.extrainfo{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+hr{
+    border: 1px solid darkgrey;
+}
+
+footer{
+    background-color: grey;
+    display: flex;
+    justify-content:space-around;
+}
+
+.logo{
+    width: 445px;
+    margin: 10px 0;
+}
+
+.signin{
+    display: flex;
+    justify-content:flex-end;
+    width: 110px;
+    margin: 10px 0;
+}
